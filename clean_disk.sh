@@ -27,12 +27,12 @@ rm /var/log/dist-upgrade*
 rm /var/log/dpkg.log*
 rm /var/log/fail2ban.log*
 rm /var/log/fontconfig.log*
-rm /var/log/kern.log*
+rm /var/log/kern.log.*
 rm /var/log/landscape
 rm /var/log/lastlog*
 rm /var/log/mail.err*
 rm /var/log/mail.log*
-rm /var/log/syslog
+#rm /var/log/syslog
 rm /var/log/syslog.*.gz
 rm /var/log/ufw.log*
 rm /var/log/wtmp.l
