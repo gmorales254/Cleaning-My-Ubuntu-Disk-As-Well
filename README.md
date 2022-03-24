@@ -2,8 +2,13 @@
 Script who can helps to clean your ubuntu disk as well in very simple execute time.
 
 ### Install
-Just upload the script "clean_disk.sh" in the root folder and give it access for all your environemnt as you can see below:
+
 ```sh
+#If you don't have wget almost install... 
+sudo apt-get install -y wget 
+#Download the script from this repo  to obtain the lastest version
+wget -L https://raw.githubusercontent.com/gmorales254/Cleaning-My-Ubuntu-Disk-As-Well/master/clean_disk.sh
+#Give it access for all our system
 chmod 777 ~/clean_disk.sh
 ```
 ### Way to set up the crontab job
